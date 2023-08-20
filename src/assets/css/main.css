@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Beautiful, sans-serif;
+}
+
+@font-face {
+    font-family: Beautiful;
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+body {
+    width: 100vw;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.form-wrapper {
+    display: flex;
+    width: 400px;
+    height: auto;
+    padding: 40px 0;
+    background-color: #3f3f3f;
+    border-radius: 20px;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submit-button {
+    width: 140px;
+    height: 40px;
+    background-image: linear-gradient(#fc6901, #ffb022, #fa8a0a);
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.input-wrapper {
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: space-between;
+}
+
+.input-label {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border-radius: 5px 0 0 5px;
+    color: #ce640b;
+}
+
+.input-label > img {
+    width: 30px;
+    height: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-input {
+    height: 50px;
+    width: 180px;
+    border-radius: 0 10px 10px 0;
+    border: 0;
+    padding: 0 10px;
+    outline: 0;
+}
+
+.gender-selection {
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+.gender-selection > img {
+    width: 32px;
+    height: 32px;
+}
+
+.gender-wrapper {
+    justify-content: center !important;
+    gap: 10px;
+}
+
+.login-page-link > p {
+    font-size: 20px;
+    color: lightgray;
+    user-select: none;
+}
+
+.login-page-link {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 230px;
+    height: auto;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.transfer-button {
+    width: 140px;
+    height: 40px;
+    background-image: linear-gradient(#fc6901, #ffb022, #fa8a0a);
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.close-btn {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}

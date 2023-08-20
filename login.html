@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/assets/css/login.css">
+</head>
+<body>
+<div class="login-form-wrapper">
+    <a href="index.html">
+        <img class="close-btn" src="./src/assets/img/close.png" alt="close-btn">
+    </a>
+    <form action="#" enctype="multipart/form-data" method="post">
+        <div class="input-wrapper">
+            <label class="input-label" for="userAccount">
+                <img src="./src/assets/img/person.png" alt="user">
+            </label>
+            <input class="form-input" id="userAccount" name="userAccount" type="text" required
+                   placeholder="Account Name" tabindex="1">
+        </div>
+        <div class="input-wrapper">
+            <label class="input-label" for="userPass">
+                <img src="./src/assets/img/key.png" alt="password">
+            </label>
+            <input class="form-input" id="userPass" name="userPass" type="password" required placeholder="Password"
+                   tabindex="2">
+        </div>
+        <div class="input-wrapper checkbox-wrapper">
+            <div class="checkbox-block">
+                <input type="checkbox" id="rPass" name="rPass" tabindex="3">
+                <label for="rPass" class="checkbox-text">REMEMBER ME</label>
+            </div>
+            <p>FORGOT PASSWORD?</p>
+        </div>
+        <div class="input-wrapper">
+            <button type="submit" value="Submit" class="submit-button" tabindex="4">LOGIN</button>
+        </div>
+    </form>
+    <div class="register-page-link">
+        <p>Don't have an account yet?</p>
+        <a href="index.html">
+            <button class="transfer-button" tabindex="5">SIGN UP</button>
+        </a>
+    </div>
+</div>
+</body>
+</html>

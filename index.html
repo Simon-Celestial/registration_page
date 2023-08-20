@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/assets/css/main.css">
+</head>
+<body>
+<div class="form-wrapper">
+    <a href="login.html">
+        <img class="close-btn" src="./src/assets/img/close.png" alt="close-btn">
+    </a>
+    <form action="#" enctype="multipart/form-data" method="post">
+        <div class="input-wrapper">
+            <label class="input-label" for="userAccount">
+                <img src="./src/assets/img/person.png" alt="user">
+            </label>
+            <input class="form-input" id="userAccount" name="userAccount" type="text" required
+                   placeholder="Account Name" tabindex="1">
+        </div>
+        <div class="input-wrapper">
+            <label class="input-label" for="fName">
+                <img src="./src/assets/img/person.png" alt="user">
+            </label>
+            <input class="form-input" id="fName" name="fName" type="text" required placeholder="First Name"
+                   tabindex="2">
+        </div>
+        <div class="input-wrapper">
+            <label class="input-label" for="sName">
+                <img src="./src/assets/img/person.png" alt="user">
+            </label>
+            <input class="form-input" id="sName" name="sName" type="text" required placeholder="Surname" tabindex="3">
+        </div>
+        <div class="input-wrapper">
+            <label class="input-label" for="userPass">
+                <img src="./src/assets/img/key.png" alt="password">
+            </label>
+            <input class="form-input" id="userPass" name="userPass" type="password" required placeholder="Password"
+                   tabindex="4">
+        </div>
+
+        <div class="input-wrapper">
+            <label class="input-label" for="userMail">
+                <img src="./src/assets/img/email.png" alt="email">
+            </label>
+            <input class="form-input" id="userMail" name="userMail" type="email" required placeholder="Email"
+                   tabindex="5">
+        </div>
+        <div class="input-wrapper">
+            <label class="input-label" for="userAge">
+                <img src="./src/assets/img/old-people.png" alt="age">
+            </label>
+            <input class="form-input" id="userAge" name="userAge" type="date" required tabindex="6">
+        </div>
+        <div class="input-wrapper gender-wrapper">
+            <label class="gender-selection" for="maleGender">
+                <img src="./src/assets/img/man.png" alt="man">
+            </label>
+            <input type="radio" id="maleGender" name="genderSelection" value="Male" required checked tabindex="7">
+            <input type="radio" id="femaleGender" name="genderSelection" value="Female" required tabindex="8">
+            <label class="gender-selection" for="femaleGender">
+                <img src="./src/assets/img/woman.png" alt="woman">
+            </label>
+        </div>
+        <div class="input-wrapper">
+            <button type="submit" value="Submit" class="submit-button" tabindex="9">REGISTER</button>
+        </div>
+    </form>
+    <div class="login-page-link">
+        <p>Do you have an account?</p>
+        <a href="login.html">
+            <button class="transfer-button" tabindex="10">SIGN IN</button>
+        </a>
+    </div>
+</div>
+</body>
+</html>
